@@ -1,19 +1,18 @@
 package view;
 
-import model.Aviao;
-import model.Passaro;
-import model.Planavel;
+import model.*;
+
+import java.io.Serializable;
 
 public class Main {
     public static void main(String[] args) {
 
-        Planavel planavel = new Passaro("Pica pau",
-                "Verelho");
-        Planavel planavel1 = new Aviao("Airbus",
-                2020);
-
-        planavel.voar();
-        planavel1.voar();
+        teste(new Quadrado(2));
 
     }
+
+    public static void teste(Serializable serializable){
+
+    }
+
 }
